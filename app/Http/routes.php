@@ -55,3 +55,6 @@ Route::get('inicio', function (){
 Route::post('inicio', function (){
 	return view('bienvenido');
 });
+Route::get('agenda', function(){
+	return view('agenda');
+});

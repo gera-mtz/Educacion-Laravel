@@ -1,4 +1,9 @@
 @extends('layouts.master')
+
+@section('title')
+<title>Educacion|Perfil</title>
+@stop
+
 @section('content')
 <script>
 document.getElementById("perfil").classList.add('active');

@@ -1,4 +1,9 @@
 @extends('layouts.master')
+
+@section('title')
+<title>Educacion|Inicio</title>
+@stop
+
 @section('content')
 <div class="right_col" role="main">
     <div class="">

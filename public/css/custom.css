@@ -8,14 +8,11 @@
     margin-top: 5%;
 }
 @font-face {
-    /*agregado*/
     font-family: "Dion";
-
     src: url("../fonts/Dion.otf");
 }
 @font-face {
     font-family: "Comic Neue";
-
     src: url("../fonts/comicneue/web/ComicNeue-Regular.eot");
     src: url("../fonts/comicneue/web/ComicNeue-Regular.eot?#iefix") format("embedded-opentype"),
     url("../fonts/comicneue/web/ComicNeue-Regular.woff2") format("woff2"),
@@ -44,6 +41,9 @@ td .btn-det{
 .col-left{
     float: left;
 }
+.unset{
+    float: unset;
+}
 .x_content .contenidonotas{
     border-bottom: none;
 }
@@ -61,6 +61,15 @@ td .btn-det{
 .notas-img{
     max-width: 150px;
     max-height: 150px;
+}
+.titulo_tabla{
+    text-align: center;
+    font-size: 25px; 
+    padding-bottom: 0px;
+}
+.tabla-opc{
+    display: inline;
+    float: left;
 }
 /* Fin de agregados */
 body.nav-sm .container.body .left_col {
@@ -4404,12 +4413,7 @@ ul.user_data li .progress {
 .projects .list-inline {
     margin: 0;
 }
-/*Agregado*/
-.titulo_tabla{
-    text-align: center;
-    font-size: 25px; 
-    padding-bottom: 0px;
-}
+
 .profile_title {
     display: flex;
     padding: 7px 0;
