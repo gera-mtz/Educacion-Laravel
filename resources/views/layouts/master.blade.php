@@ -8,14 +8,9 @@
     <!-- Bootstrap core CSS -->
     <link href= "{{URL::asset('css/bootstrap.min.css')}}" rel="stylesheet">
     <link href= "{{URL::asset('fonts/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href= "{{URL::asset('css/animate.min.css')}}" rel="stylesheet">
     <!-- Custom styling plus plugins -->
     <link href= "{{URL::asset('css/custom.css')}}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{URL::asset('css/maps/jquery-jvectormap-2.0.3.css')}}" />
-    <link href="{{URL::asset('css/icheck/flat/green.css')}}" rel="stylesheet" />
-    <link href="{{URL::asset('css/floatexamples.css')}}" rel="stylesheet" type="text/css" />
-    <script src="{{URL::asset('js/jquery.min.js')}}"></script>
-    <script src="{{URL::asset('js/nprogress.js')}}"></script>
+    @yield('resources')
     <!--[if lt IE 9]>
     <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
     <![endif]-->
@@ -24,7 +19,6 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    @yield('head')
   </head>
   <body class="nav-md">
     <div class="container body">
@@ -181,9 +175,7 @@
         @yield('content')
       </div>
     </div>
-    <script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
-    <!-- chart js -->
-    <script src="{{URL::asset('js/chartjs/chart.min.js')}}"></script>
+    @yield('more')
     <script src="{{URL::asset('js/custom.js')}}"></script>
     @yield('scripts')
   </body>

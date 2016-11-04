@@ -4,6 +4,9 @@
 <title>Educacion|Notas</title>
 @stop
 
+@section('resources')
+<script src="{{URL::asset('js/jquery.min.js')}}"></script>
+@stop
 
 @section('content')
 <script>
