@@ -58,3 +58,6 @@ Route::post('inicio', function (){
 Route::get('agenda', function(){
 	return view('agenda');
 });
+Route::get('sliders', function(){
+	return view('sliders');
+});

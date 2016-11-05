@@ -62,7 +62,7 @@
                     <a href="agenda"><i class="fa fa-calendar"></i> Agenda</span></a>
                   </li>
                   <li id="sliders">
-                    <a href="ibooks"><i class="fa fa-sliders"></i> Sliders</span></a>
+                    <a href="sliders"><i class="fa fa-sliders"></i> Sliders</span></a>
                   </li>
                   <li id="reportes">
                     <a href="reportes"><i class="fa fa-file-text"></i> Reportes</span></a>
