@@ -61,3 +61,6 @@ Route::get('agenda', function(){
 Route::get('sliders', function(){
 	return view('sliders');
 });
+Route::get('reportes', function(){
+	return view('reportes');
+});

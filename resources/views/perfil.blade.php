@@ -4,10 +4,6 @@
 <title>Educacion|Perfil</title>
 @stop
 
-@section('resources')
-<script src="{{URL::asset('js/jquery.min.js')}}"></script>
-@stop
-
 @section('content')
 <script>
 document.getElementById("perfil").classList.add('active');

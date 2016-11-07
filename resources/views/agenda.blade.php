@@ -115,12 +115,9 @@ document.getElementById("reportes").classList.remove('active');
 <div id="fc_create" data-toggle="modal" data-target="#CalenderModalNew"></div>
 <div id="fc_edit" data-toggle="modal" data-target="#CalenderModalEdit"></div>
 <!-- /calendar modal -->
-    
 @stop
 
 @section('scripts')
-<script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
-<script src="{{URL::asset('js/jquery.min.js')}}"></script>
 <!-- FastClick -->
 <script src="{{URL::asset('js/fastclic/fastclick.js')}}"></script>
 <!-- NProgress -->

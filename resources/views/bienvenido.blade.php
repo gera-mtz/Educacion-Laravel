@@ -4,10 +4,6 @@
 <title>Educacion|Inicio</title>
 @stop
 
-@section('resources')
-<script src="{{URL::asset('js/jquery.min.js')}}"></script>
-@stop
-
 @section('content')
 <div class="right_col" role="main">
     <div class="">

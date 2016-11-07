@@ -3983,7 +3983,7 @@ html > body > .ui-pnotify {
 .btn-primary {
     color: #fff;
     border-color: #fff;
-    background-color: #f60; /*modificado*/
+    background-color: #286090;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -3992,7 +3992,7 @@ html > body > .ui-pnotify {
 .open .dropdown-toggle.btn-primary {
     color: #fff;
     border-color: #1a82c3;
-    background-color: #f60;
+    background-color: #286090;
 }
 .btn-success:hover,
 .btn-success:focus,

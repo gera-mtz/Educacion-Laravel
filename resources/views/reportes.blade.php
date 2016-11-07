@@ -1,26 +1,25 @@
 @extends('layouts.master')
 
 @section('title')
-<title>Educacion|</title>
+<title>Educacion|Reportes</title>
 @stop
-
 
 @section('content')
 <script>
-document.getElementById("perfil").classList.add('active');
+document.getElementById("perfil").classList.remove('active');
 document.getElementById("grupos").classList.remove('active');
 document.getElementById("tareascal").classList.remove('active');
 document.getElementById("notas").classList.remove('active');
 document.getElementById("agenda").classList.remove('active');
 document.getElementById("sliders").classList.remove('active');
-document.getElementById("reportes").classList.remove('active');
+document.getElementById("reportes").classList.add('active');
 </script>
 <div class="right_col" role="main">
     <div class="">
         <div class="page-title">
             <div class="title_left">
                 <h3>
-                Perfil
+                Reportes
                 </h3>
             </div>
         </div>

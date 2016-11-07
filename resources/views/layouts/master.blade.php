@@ -10,6 +10,7 @@
     <link href= "{{URL::asset('fonts/css/font-awesome.min.css')}}" rel="stylesheet">
     <!-- Custom styling plus plugins -->
     <link href= "{{URL::asset('css/custom.css')}}" rel="stylesheet">
+    <script src="{{URL::asset('js/jquery.min.js')}}"></script>
     @yield('resources')
     <!--[if lt IE 9]>
     <script src="../../assets/js/ie8-responsive-file-warning.js"></script>
@@ -176,7 +177,8 @@
       </div>
     </div>
     @yield('more')
-    <script src="{{URL::asset('js/custom.js')}}"></script>
     @yield('scripts')
+    <script src="{{URL::asset('js/bootstrap.min.js')}}"></script>
+    <script src="{{URL::asset('js/custom.js')}}"></script>
   </body>
 </html>
