@@ -4,7 +4,6 @@
 <title>Educacion|Grupos</title>
 @stop
 
-
 @section('content')
 <script>
 document.getElementById("perfil").classList.remove('active');
