@@ -4,6 +4,10 @@
 <title>Educacion|Notas</title>
 @stop
 
+@section('resources')
+<link href="{{URL::asset('css/icheck/flat/green.css')}}" rel="stylesheet">
+@stop
+
 @section('content')
 <script>
 document.getElementById("perfil").classList.remove('active');
@@ -151,8 +155,9 @@ document.getElementById("reportes").classList.remove('active');
 															<div class="checkbox">
 																<label class="">
 																	<div style="position: relative; font-size: 10px;" class="icheckbox_flat-green">
-																		<input style="position: absolute; opacity: 0;" class="flat" checked="checked" type="checkbox">
-																		<ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins>
+																		<input style="position: absolute; opacity: 0;" class="flat" type="checkbox">
+																		<ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none repeat scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper">
+																		</ins>
 																	</div>
 																	Grupal
 																</label>
@@ -161,7 +166,8 @@ document.getElementById("reportes").classList.remove('active');
 																<label class="">
 																	<div style="position: relative; font-size: 10px;" class="icheckbox_flat-green">
 																		<input style="position: absolute; opacity: 0;" class="flat" type="checkbox">
-																		<ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper"></ins>
+																		<ins style="position: absolute; top: 0%; left: 0%; display: block; width: 100%; height: 100%; margin: 0px; padding: 0px; background: rgb(255, 255, 255) none scroll 0% 0%; border: 0px none; opacity: 0;" class="iCheck-helper">
+																		</ins>
 																	</div>
 																	Personalizada
 																</label>
@@ -272,4 +278,5 @@ document.getElementById("reportes").classList.remove('active');
 
 @section('scripts')
 <script src="{{URL::asset('js/fastclic/fastclick.js')}}"></script>
+<script src="{{URL::asset('js/icheck/icheck.min.js')}}"></script>
 @stop

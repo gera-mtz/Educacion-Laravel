@@ -47,7 +47,7 @@ document.getElementById("reportes").classList.add('active');
                             <div id="myTabContent" class="tab-content">
                                 <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
                                 <!--Primer panel-->
-                                    <div class="x_panel x_title content">
+                                    <div class="x_panel x_title content" style="margin-top: 10px;">
                                         <div class="col-md-2">
                                             Selecciona grupo:
                                             <div id="cambiogrupo" class="btn-group" data-toggle="buttons">
@@ -82,11 +82,13 @@ document.getElementById("reportes").classList.add('active');
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="x_content"></div>
+                                    <div class="x_content">
+                                        
+                                    </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
                                 <!--Segundo panel-->
-                                    <div class="x_panel x_title content">
+                                    <div class="x_panel x_title content" style="margin-top: 10px;">
                                         <div class="col-md-2">
                                             Selecciona grupo:
                                             <div id="cambiogrupo" class="btn-group" data-toggle="buttons">
@@ -135,13 +137,42 @@ document.getElementById("reportes").classList.add('active');
                                             </form>
                                         </div>
                                     </div>
-                                    <div class="x_content"></div>
+                                    <div class="x_content">
+                                        
+                                    </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
                                 <!--Tercer panel-->
-                                    <div class="x_panel x_title content">
+                                    <div style="margin-top: 10px;">
+                                        <div class="col-md-2 col-md-offset-2">
+                                            Selecciona grupo:
+                                            <div id="cambiogrupo" class="btn-group" data-toggle="buttons">
+                                                <label class="btn btn-default active" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                    <input type="radio" name="grupo" value="1-A"> 1-A
+                                                </label>
+                                                <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                    <input type="radio" name="grupo" value="1-B"> 1-B
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-md-offset-2">
+                                            Buscar:
+                                            <input aria-controls="datatable" placeholder="" class="form-control" type="search">
+                                        </div>
                                     </div>
-                                    <div class="x_content"></div>
+                                    <div>
+                                        <div class="col-md-3 col-md-offset-2">
+                                            <img class="img-responsive avatar-view" src="images/user.png" alt="Avatar" title="Change the avatar" />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <h2>Apellido Paterno:</h2>
+                                            <h2>Apellido Materno:</h2>
+                                            <h2>Nombre:</h2>
+                                            <h2>Genero:</h2>
+                                            <h2>Fecha de nacimiento:</h2>
+                                            <h2>Grado y Seccion:</h2>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div role="tabpanel" class="tab-pane fade" id="tab_content4" aria-labelledby="profile-tab">
                                 <!--Cuarto panel-->
@@ -172,8 +203,6 @@ document.getElementById("reportes").classList.add('active');
             "separator": " - ",
             "applyLabel": "Aceptar",
             "cancelLabel": "Cancelar",
-            "fromLabel": "De",
-            "toLabel": "A",
             "customRangeLabel": "Personalizar",
             "daysOfWeek": [
                 "Dom",
