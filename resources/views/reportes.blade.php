@@ -160,7 +160,7 @@ document.getElementById("reportes").classList.add('active');
                                             <input aria-controls="datatable" placeholder="" class="form-control" type="search">
                                         </div>
                                     </div>
-                                    <div>
+                                    <div style="margin-top: 10px;">
                                         <div class="col-md-3 col-md-offset-2">
                                             <img class="img-responsive avatar-view" src="images/user.png" alt="Avatar" title="Change the avatar" />
                                         </div>
@@ -228,8 +228,8 @@ document.getElementById("reportes").classList.add('active');
                 "Diciembre"
             ],
             "firstDay": 1
-        }
+            }
+        });
     });
-  });
 </script>
 @stop
